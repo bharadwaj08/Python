@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Apr  8 17:05:33 2018
-
-@author: bbsbh
+Fibonacci series in three different ways
 """
 #Normal approach
 
