@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
 
-s = input("Enter a string: ") #use raw_input for python2
+# 
 
-alphabets = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890"
-d1 = {letter: 0 for letter in alphabets} #initializing all alphabets, numbers to count 0
+def freq(list1):
+ num = len(set([i for i in list1 if list1.count(i) >= 2]))
+ return num
 
-for ch in s:
- d1[ch] += 1 #incrementing count on repeat
-
-for key in d1:
- print(key,d1[key])
+list1 = [1,1,2,3,4,4,4,5,6,6]
+print (freq(list1))
 
