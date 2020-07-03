@@ -1,0 +1,8 @@
+second largest number in a list with duplicate numbers
+
+pattern printing
+
+divide list into k size chunks
+
+You write all your passwords in a diary so that you don't forget them. But clearly this is too risky, so you came up with a simple plan, you will simply write it by shifting all the alphabets by a certain step. For eg: if you decide your step to be 3, then 'a' will become 'd', and 'k' will become 'n' and so for all alphabets. The last alphabets will simply circle back to 'a'. In this case, 'y' will become 'b' and so on. Now you just have to remember the step size, can then you can check the password anytime you want. You decided to write code to do this, now that you have learned coding in python. Your code will take in the step size and what is written in the diary and give out the real password.
+
